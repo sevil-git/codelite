@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+.themebody {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #1E1E1E;
+    height: 100vh;
+    margin-top: -3rem;
+    color: white;
+    position: relative;
+    width: 100vw;
+    padding: 0;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;left: 0;
+}
+
+.flexCenterR {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.w50 {
+
+    height: 100%;
+}
+
+.wfull {
+    width: 100vw;
+}
+
+.hscreen {
+    height: 100vh;
+}
+.w501 {
+    width: 55%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    
+}
+
+.logo:hover{
+    text-decoration: none;
+}
+
+.w501 a {
+    text-decoration: none;
+}
+
+.logo > img {
+    width: 2.5rem;
+    border-radius: 1rem;
+}
+
+.logo > h2 {
+    font-size: 1.2rem;
+    margin-top: 0.4rem;
+    color: white;  
+    text-decoration: none;
+}
+
+.heroHeading {
+    margin-top: 5rem;
+    margin-left: 6rem;
+    
+}
+
+.heading_two {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading_two > h2 {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.heroHeading > h4 {
+    font-weight: 200;
+    font-size: 1.1rem;
+    margin-top: 0.6rem;
+    color: #8c8c8c;
+}
+
+.nav_buttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+    gap: 2rem;
+    margin-top: 2.6rem;
+}
+
+
+.nav_buttons > a {
+    padding: 0.4rem 1rem;
+    width: 23rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #24AE7C;
+    gap: 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.nav_buttons >a>button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.nav_buttons a img {
+    width: 2rem;
+    transition: all ease 0.4s;
+} 
+
+.translate-x-2 {
+    transform: translateX(8px);
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+}
+
+.copyright > h2 {
+    font-size: 0.8rem;
+    color: #8c8c8c;
+    margin-left: 2rem;
+}
+
+/* ................... */
+.w502 {
+    width: 45%;
+}
+
+.img {
+    object-fit: clip;
+    max-height:100%; width:100%;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.QtestingInput {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+
+.navv >a {
+    text-decoration: none;
+}
